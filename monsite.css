@@ -1,0 +1,41 @@
+html, body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#paysage{
+    width:100vw;
+    min-width:45vw;
+    height:100vh;
+  
+    z-index: 30;
+
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pokemon{
+    width:250px; 
+    height:120px;
+    
+  
+}
+
+
+#pokemon iframe {
+    display:block; 
+    width:100%;
+    height:100%;
+    border: none;
+}
+
+     
+
